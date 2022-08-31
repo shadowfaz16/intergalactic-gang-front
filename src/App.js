@@ -13,16 +13,22 @@ import Distribution from "./Components/Distribution";
 import BuyAnAlien from "./Components/BuyAnAlien";
 import Specs from "./Components/Specs";
 import LaUniversidad from "./Components/LaUniversidad";
+import Footer from "./Components/Footer";
+import Slider from "./Components/Slider";
+import Roadmap from "./Components/Roadmap";
 
 function App() {
   return (
-    <div className="bg-black ">
+    <div className="bg-bgBlack ">
       <Navbar />
       <Hero />
-      <Distribution />
+      <Slider />
       <BuyAnAlien />
       <Specs />
+      {/* <Distribution /> */}
+      <Roadmap />
       <LaUniversidad />
+      <Footer />
     </div>
   );
 }
