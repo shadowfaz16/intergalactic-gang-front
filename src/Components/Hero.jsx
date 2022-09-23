@@ -1,6 +1,5 @@
 import "../App.css";
 import React from "react";
-import NFTs from "../images/NFTs.gif";
 import alien21 from "../images/gang/alien21.png";
 import alien32 from "../images/gang/alien32.png";
 import alien35 from "../images/gang/alien35.png";
@@ -19,10 +18,12 @@ const Hero = () => {
               Intergalactic Gang
             </h1>
             <p className="max-w-xl text-white text-justify text-lg">
-              Esta colección de NFTs es un esfuerzo de 2 artistas independientes
+              {/* Esta colección de NFTs es un esfuerzo de 2 artistas independientes
               en México. Esta es nuestra primera colaboración oficial juntos
               donde buscaremos mostrar nuestros talentos así como crear con
-              quien esté interesado en seguir aprendiendo con nosotros.
+              quien esté interesado en seguir aprendiendo con nosotros. */}
+              This collection of NFTs is an effort of 2 independent artists in Mexico. This is our most ambitious collaboration together where we will seek to showcase our talents as well as create with whoever is interested in continuing to learn with us.
+
             </p>
             <p className="max-w-xl text-center text-white md:text-left">
               Coming soon Q4 2022.

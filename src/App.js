@@ -9,7 +9,7 @@ import opensea from "./images/socials/opensea.svg";
 import showcase from "./images/showcase.png";
 import NFTs from "./images/NFTs.gif";
 import Hero from "./Components/Hero";
-import Distribution from "./Components/Distribution";
+import Merch from "./Components/Merch";
 import BuyAnAlien from "./Components/BuyAnAlien";
 import Specs from "./Components/Specs";
 import LaUniversidad from "./Components/LaUniversidad";
@@ -25,9 +25,9 @@ function App() {
       <Slider />
       <BuyAnAlien />
       <Specs />
-      {/* <Distribution /> */}
       <Roadmap />
-      <LaUniversidad />
+      <Merch />
+      {/* <LaUniversidad /> */}
       <Footer />
     </div>
   );

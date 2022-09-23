@@ -8,6 +8,7 @@ import Pink from "../../images/layers/Backgrounds/Pink.png";
 import Purple from "../../images/layers/Backgrounds/Purple.png";
 import Red from "../../images/layers/Backgrounds/Red.png";
 import Yellow from "../../images/layers/Backgrounds/Yellow.png";
+import Thumbnail from "./Thumbnail"
  
 const Background = () => {
   const [background, setBackground] = useState("");

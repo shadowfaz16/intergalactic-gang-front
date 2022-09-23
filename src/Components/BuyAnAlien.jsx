@@ -20,13 +20,13 @@ const Hero = () => {
             <div className="flex">
               <p className="max-w-xl text-center text-bgBlack md:text-left">
                 The aliens are stored as ERC-721 tokens on the Ethereum
-                blockchain and hosted on IPFS. (See Record and Proof.) Minting
+                blockchain and hosted on IPFS. (<span className="text-redish">See Record and Proof</span>) Minting
                 an alien costs 0.07 ETH.
               </p>
             </div>
             {/* right item */}
             <button class="bg-redish hover:ease-in-out hover:shadow-lg text-white font-bold py-4 px-8 rounded-lg">
-              COMPRA UN ALIEN
+              BUY AN ALIEN
             </button>
           </div>
         </div>

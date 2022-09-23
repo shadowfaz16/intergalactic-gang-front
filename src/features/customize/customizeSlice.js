@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
-import Transparent from "../../images/layers/Backgrounds/Transparent.png";
+import Black from "../../images/layers/Backgrounds/Black.png";
 
 const initialState = {
-  background: { Transparent },
+  background: { Black },
   body: "",
   eye: "",
   clothes: "",
