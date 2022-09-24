@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="container flex flex-col-reverse text-center items-center mx-auto p-10 bg-bgBlack md:flex-row md:space-y-10 md:mb-10 md:text-left dark:bg-purple-500">
           {/* left item */}
           <div className="flex flex-col mt-8 space-y-3 md:w-2/3 md:mt-0 md:space-y-5">
-            <h1 className="max-w-md text-2xl text-redish font-mono font-bold italic md:text-4xl md:w-1/2">
+            <h1 className="max-w-md text-3xl text-redish font-mono font-bold italic md:text-4xl md:w-1/2">
               Intergalactic Gang
             </h1>
             <p className="max-w-xl text-white md:text-justify">

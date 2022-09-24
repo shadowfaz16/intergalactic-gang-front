@@ -78,13 +78,14 @@ const Hero = () => {
               <div>
                 <p className="max-w-xl text-white md:text-lg">Background:</p>
               </div>
-              <div className="flex flex-wrap justify-start space-x-3 space-y-3 max-w-sm">
+              <div className="flex flex-wrap justify-start space-y-3 max-w-sm">
               {backgrounds.map((img, idx) => (
                 <img
                   src={img}
                   alt="Gang Member"
-                  className="rounded-md mt-3 w-14 h-14 hover:scale-110 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
+                  className="rounded-lg mt-3 mr-3 w-14 h-14 hover:scale-110 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
                   onClick={() => setBackground(img)}
+                  key={idx}
                 />
                 ))}
                 </div>
@@ -94,13 +95,14 @@ const Hero = () => {
               <div>
                 <p className="max-w-xl text-white md:text-lg">Face:</p>
               </div>
-              <div className="flex flex-wrap justify-start space-x-3 space-y-3 max-w-sm">
+              <div className="flex flex-wrap justify-start space-y-3 max-w-sm">
               {faces.map((img, idx) => (
                 <img
                   src={img}
                   alt="Gang Member"
-                  className="rounded-md mt-3  w-14 h-14 bg-black hover:scale-110 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
+                  className="rounded-md mt-3 mr-3 w-14 h-14 bg-black hover:scale-110 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
                   onClick={() => setFace(img)}
+                  key={idx}
                 />
                 ))}
                 </div>
@@ -151,13 +153,14 @@ const Hero = () => {
               <div>
                 <p className="text-white md:text-lg">Clothes:</p>
               </div>
-              <div className="flex flex-wrap justify-start space-x-3 space-y-3 max-w-sm">
+              <div className="flex flex-wrap justify-start space-y-3 max-w-sm">
               {clothing.map((img, idx) => (
                 <img
                   src={img}
                   alt="Gang Member"
-                  className="rounded-md mt-3  w-14 h-14 bg-black hover:scale-95 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
+                  className="rounded-md mt-3 mr-3 w-14 h-14 bg-black hover:scale-95 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
                   onClick={() => setClothes(img)}
+                  key={idx}
                 />
                 ))}
                 </div>
@@ -168,13 +171,14 @@ const Hero = () => {
               <div>
                 <p className="text-white md:text-lg">Hat:</p>
               </div>
-              <div className="flex flex-wrap justify-start space-x-3 space-y-3 max-w-sm">
+              <div className="flex flex-wrap justify-start space-y-3 max-w-sm">
               {hats.map((img, idx) => (
                 <img
                   src={img}
                   alt="Gang Member"
-                  className="rounded-md mt-3  w-14 h-14 bg-black hover:scale-95 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
+                  className="rounded-md mt-3 mr-3 w-14 h-14 bg-black hover:scale-95 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
                   onClick={() => setHat(img)}
+                  key={idx}
                 />
                 ))}
                 </div>

@@ -46,7 +46,7 @@ const Hero = () => {
                 <div className="text-center md:text-left">
                   <h3 className="text-xl font-bold">Erik Faz Jurgensen</h3>
                   <p className="italic">Web & Blockchain Developer</p>
-                  <p className="text-sm ">
+                  <p className="text-sm">
                     After 2 years of living in empty rooms around the world, he's finally getting the skills to pay the bills. </p>
                   <div className="flex justify-center md:justify-start mt-2 space-x-1">
                     <TbBrandLinkedin size={25}/>
