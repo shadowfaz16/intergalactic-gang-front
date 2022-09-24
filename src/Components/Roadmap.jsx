@@ -19,7 +19,7 @@ const Hero = () => {
             <h1 className="max-w-md text-3xl text-white font-mono font-bold italic md:text-3xl md:w-1/2">
               ROADMAP
             </h1>
-            <p className="max-w-xxl text-white">
+            <p className="max-w-xxl text-white text-sm md:text-base">
               The main purpose of this project is showcasing our portfolio so we can meet others with shared interests along the way. That said, we will keep looking for different ways to benefit the people who've helped us come so far. 
             </p>
             {/* roadmap stages */}
@@ -32,7 +32,7 @@ const Hero = () => {
                 </div>
                 {/* activation */}
                 <div>
-                  <p>
+                  <p className="text-sm md:text-base">
                     We give away a full brand kit & website to a random Holder.
                   </p>
                 </div>
@@ -45,7 +45,9 @@ const Hero = () => {
                 </div>
                 {/* activation */}
                 <div>
-                  ...
+                  <p className="text-sm md:text-base">
+                    The Intergalactic Team will ship exclusive, limited edition merchandise to 12 lucky holders.
+                    </p>
                 </div>
               </div>
               {/* row */}
@@ -56,7 +58,7 @@ const Hero = () => {
                 </div>
                 {/* activation */}
                 <div>
-                  The Intergalactic Team will ship exclusive merchandise to 12 lucky holders.
+                  The Intergalactic Gang will have its own Youtube channel, where we will be uploading free design and development tutorials.
                 </div>
               </div>
               {/* row */}
@@ -67,8 +69,7 @@ const Hero = () => {
                 </div>
                 {/* activation */}
                 <div>
-                  BAYC gets its own YouTube channel, BAYC LoFi Radio - Beats to
-                  Ape into Shitcoins To.
+                  We will start hosting live workshops to show the finishing touches of the latest projects we are working on and handing in.
                 </div>
               </div>
             </div>
@@ -79,7 +80,7 @@ const Hero = () => {
                 </div>
                 {/* activation */}
                 <div>
-                  Members get access to a token protected online video vault where we will be uploading weekly videos talking about design and web3 development.
+                  Holders get access to a members only online video vault where we will be uploading weekly videos talking about design and web3 development.
                 </div>
             </div>
           </div>
