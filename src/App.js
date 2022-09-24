@@ -16,6 +16,7 @@ import LaUniversidad from "./Components/LaUniversidad";
 import Footer from "./Components/Footer";
 import Slider from "./Components/Slider";
 import Roadmap from "./Components/Roadmap";
+import DreamTeam from "./Components/DreamTeam";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
       <Specs />
       <Roadmap />
       <Merch />
-      {/* <LaUniversidad /> */}
+      <DreamTeam />
       <Footer />
     </div>
   );

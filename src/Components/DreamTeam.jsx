@@ -12,57 +12,44 @@ const Hero = () => {
       {/* hero section */}
       <section id="hero">
         {/* flex container */}
-        <div className="container flex flex-col-reverse items-center mx-auto p-10 bg-black dark:bg-white md:flex-row md:space-y-0 ">
+        <div className="container flex flex-col items-center mx-auto p-10 space-y-5 bg-black md:flex-row md:items-end md:space-x-10">
           {/* left item */}
-          <div className="flex flex-col mt-8 space-y-3 md:w-2/3 md:mt-0 md:space-y-5">
-            <h1 className="max-w-md text-3xl text-white font-mono font-bold italic md:text-4xl md:w-1/2">
+          <div className="flex flex-col space-y-5 md:mt-0 md:w-1/2">
+            <h1 className="max-w-md text-3xl text-white text-center font-mono font-bold italic md:text-4xl md:text-left">
               THE DREAM TEAM
             </h1>
-            <p className="max-w-xl text-white">
-              BAYC was created by four friends who set out to make some dope
-              apes, test our skills, and try to build something (ridiculous).
-            </p>
-            <p className="max-w-xl text-white">
-              GARGAMEL. STARCRAFT OBSESSED. EATS SMURFS.
-            </p>
-            <p className="max-w-xl text-white">
-              GORDON GONER. REFORMED LEVERAGE ADDICT.
-            </p>
-            <p className="max-w-xl text-white">
-              EMPEROR TOMATO KETCHUP. SPENT ALL THEIR MONEY ON FIRST PRESSES AND
-              PET-NAT.
-            </p>
-            <p className="max-w-xl text-white">
-              NO SASS. HERE FOR THE APES. NOT FOR THE SASS.
-            </p>
+            <div className="flex flex-col items-center bg-white p-5 space-y-3 rounded-md md:flex-row md:items-start md:space-x-8 md:space-y-0">
+                <div>
+                  <img src={alien21} alt="" className="w-64 rounded-md"/>
+                </div>
+                <div className="text-center md:text-left space-y-0">
+                  <h3 className="text-xl font-bold">Joel Alexander</h3>
+                  <p className="italic">Graphic Designer</p>
+                  <p className="text-sm">Deserunt perspiciatis accusantium assumenda quis velit qui dolores neque eveniet doloribus mollitia.</p>
+                  <div className="flex justify-center">
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                  </div>
+                </div>
+            </div>
           </div>
           {/* right item */}
-          <div className="flex flex-col space-y-4 md:ml-auto">
-            <div className="flex space-x-4">
-              <img
-                src={alien21}
-                alt="Gang Member"
-                className="rounded-md w-48"
-              />
-              <img
-                src={alien32}
-                alt="Gang Member"
-                className="rounded-md w-24 h-24"
-              />
+           <div className="flex flex-col items-center bg-white p-5 space-y-3 rounded-md md:flex-row md:items-start md:space-x-8 md:space-y-0 md:w-1/2">
+                <div>
+                  <img src={alien73} alt="" className="w-64 rounded-md"/>
+                </div>
+                <div className="text-center md:text-left">
+                  <h3 className="text-xl font-bold">Erik Faz Jurgensen</h3>
+                  <p className="italic">Web & Blockchain Developer</p>
+                  <p className="text-sm">Deserunt perspiciatis accusantium assumenda quis velit qui dolores neque eveniet doloribus mollitia.</p>
+                  <div className="flex justify-center">
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                  </div>
+                </div>
             </div>
-            <div className="flex space-x-5">
-              <img
-                src={alien35}
-                alt="Gang Member"
-                className="rounded-md w-24 h-24"
-              />
-              <img
-                src={alien73}
-                alt="Gang Member"
-                className="rounded-md w-48"
-              />
-            </div>
-          </div>
         </div>
       </section>
     </>
