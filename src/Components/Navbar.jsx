@@ -16,19 +16,19 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
             <img src={logoWhite} alt="logo" className="w-24 md:w-32" />
           </div>
           <div className="hidden space-x-12 md:flex">
-            <a href="#" className="text-white text-sm hover:text-green-500">
+            <a href="#" className="text-white  md:text-base hover:text-green-500">
               Collection
             </a>
-            <a href="#" className="text-white text-sm">
+            <a href="#" className="text-white  md:text-base">
               Roadmap
             </a>
-            <a href="#" className="text-white text-sm">
+            <a href="#" className="text-white  md:text-base">
               Community
             </a>
-            <a href="#" className="text-white text-sm">
+            <a href="#" className="text-white  md:text-base">
               Team
             </a>
-            <a href="#" className="text-white text-sm ">
+            <a href="#" className="text-white  md:text-base ">
               Gallery
             </a>
           </div>

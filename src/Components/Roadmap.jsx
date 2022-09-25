@@ -15,8 +15,8 @@ const Hero = () => {
         {/* flex container */}
         <div className="container flex flex-col items-center mx-auto p-10 space-y-10 bg-bgBlack md:flex-row md:space-y-0 border-y border-redish">
           {/* left item */}
-          <div className="flex flex-col space-y-7 text-lg text-white md:w-3/5 md:space-y-5">
-            <h1 className="max-w-md text-3xl text-white font-mono font-bold italic md:text-3xl md:w-1/2">
+          <div className="flex flex-col space-y-7 text-white md:w-3/5 md:space-y-5">
+            <h1 className="max-w-md text-white font-mono font-bold italic text-3xl md:w-1/2">
               ROADMAP
             </h1>
             <p className="max-w-xxl text-white">
@@ -32,7 +32,7 @@ const Hero = () => {
                 </div>
                 {/* activation */}
                 <div>
-                  <p className="text-sm md:text-base">
+                  <p>
                     We give away a full brand kit & website to a random Holder.
                   </p>
                 </div>
@@ -45,7 +45,7 @@ const Hero = () => {
                 </div>
                 {/* activation */}
                 <div>
-                  <p className="text-sm md:text-base">
+                  <p>
                     The Intergalactic Team will ship exclusive, limited edition merchandise to 12 lucky holders.
                     </p>
                 </div>
@@ -58,7 +58,7 @@ const Hero = () => {
                 </div>
                 {/* activation */}
                 <div>
-                  <p className="text-sm md:text-base">
+                  <p>
                   The Intergalactic Gang will have its own Youtube channel, where we will be uploading free design and development tutorials.
                   </p>
                 </div>
@@ -71,12 +71,11 @@ const Hero = () => {
                 </div>
                 {/* activation */}
                 <div>
-                  <p className="text-sm md:text-base">
+                  <p>
                   We will start hosting live workshops to show the finishing touches of the latest projects we are working on and handing in.
                   </p>
                 </div>
               </div>
-            </div>
             <div className="flex space-x-10 items-center">
                 {/* % number */}
                 <div>
@@ -84,10 +83,11 @@ const Hero = () => {
                 </div>
                 {/* activation */}
                 <div>
-                  <p className="text-sm md:text-base">
+                  <p>
                   Holders get access to a members only online video vault where we will be uploading weekly videos talking about design and web3 development.
                   </p>
                 </div>
+            </div>
             </div>
           </div>
           {/* right item */}

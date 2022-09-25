@@ -1,6 +1,6 @@
 import React from "react";
 import altPurple from "../images/brand/altPurple.png";
-import { FaTwitter, FaInstagram, FaBeer } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaDiscord, FaBeer } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -25,6 +25,7 @@ const Footer = () => {
           </div>
           {/* right item */}
           <div className="flex w-full justify-center md:w-1/3 md:justify-end text-white space-x-3">
+              <FaDiscord size={25}/>
               <FaInstagram size={25} />
               <FaTwitter size={25}/>
               <FaBeer size={25} />

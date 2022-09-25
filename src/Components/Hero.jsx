@@ -17,15 +17,14 @@ const Hero = () => {
             <h1 className="max-w-md text-3xl text-redish font-mono font-bold italic md:text-4xl md:w-1/2">
               Intergalactic Gang
             </h1>
-            <p className="max-w-xl text-white md:text-justify">
+            <p className="max-w-xl text-white md:text-justify md:text-lg">
               {/* Esta colección de NFTs es un esfuerzo de 2 artistas independientes
               en México. Esta es nuestra primera colaboración oficial juntos
               donde buscaremos mostrar nuestros talentos así como crear con
               quien esté interesado en seguir aprendiendo con nosotros. */}
               This collection of NFTs is an effort of 2 independent artists in Mexico. This is our most ambitious collaboration together where we will seek to showcase our talents as well as create with whoever is interested in continuing to learn with us.
-
             </p>
-            <p className="max-w-xl text-white">
+            <p className="max-w-xl text-white md:text-lg">
               Coming soon Q4 2022.
             </p>
           </div>

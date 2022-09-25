@@ -9,10 +9,10 @@ const Hero = () => {
       <section id="distribution">
         <div className="container bg-bgBlack border-y border-redish px-6 py-10 md:p-10">
           {/* flex container */}
-          <div className="container flex flex-col rounded-md items-center p-6 space-y-3 bg-bgWhite md:flex-row md:space-y-0 md:py-10 md:mx-auto  md:justify-around">
+          <div className="container flex flex-col rounded-md items-center p-6 space-y-3 bg-bgWhite md:flex-row md:space-y-0 md:py-10 md:mx-auto md:justify-around">
             {/* left item */}
             <div className="flex flex-col space-y-7">
-              <h3 className="max-w-md text-2xl text-bgBlack font-mono font-bold italic text-center md:text-3xl md:text-left">
+              <h3 className="max-w-md text-3xl text-bgBlack font-mono font-bold italic text-center md:text-left">
                 GANG
               </h3>
             </div>
