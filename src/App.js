@@ -20,7 +20,7 @@ import DreamTeam2 from "./Components/DreamTeam2";
 
 function App() {
   return (
-    <div className="bg-bgBlack ">
+    <div className="bg-elg dark:bg-bgBlack ">
       <Navbar />
       <Hero />
       <Slider />

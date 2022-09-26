@@ -11,20 +11,20 @@ const Hero = () => {
       {/* hero section */}
       <section id="hero">
         {/* flex container */}
-        <div className="container flex flex-col-reverse text-center items-center mx-auto p-10 bg-bgBlack md:flex-row md:space-y-10 md:mb-10 md:text-left dark:bg-purple-500">
+        <div className="container flex flex-col-reverse text-center items-center mx-auto p-10 md:flex-row md:space-y-10 md:mb-10 md:text-left">
           {/* left item */}
           <div className="flex flex-col mt-8 space-y-3 md:w-2/3 md:mt-0 md:space-y-5">
             <h1 className="max-w-md text-3xl text-redish font-mono font-bold italic md:text-4xl md:w-1/2">
               Intergalactic Gang
             </h1>
-            <p className="max-w-xl text-white md:text-justify md:text-lg">
+            <p className="max-w-xl text-black dark:text-white md:text-justify md:text-lg">
               {/* Esta colección de NFTs es un esfuerzo de 2 artistas independientes
               en México. Esta es nuestra primera colaboración oficial juntos
               donde buscaremos mostrar nuestros talentos así como crear con
               quien esté interesado en seguir aprendiendo con nosotros. */}
               This collection of NFTs is an effort of 2 independent artists in Mexico. This is our most ambitious collaboration together where we will seek to showcase our talents as well as create with whoever is interested in continuing to learn with us.
             </p>
-            <p className="max-w-xl text-white md:text-lg">
+            <p className="max-w-xl text-black dark:text-white md:text-lg">
               Coming soon Q4 2022.
             </p>
           </div>

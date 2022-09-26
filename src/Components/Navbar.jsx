@@ -2,41 +2,56 @@ import logo from "../images/logo.png";
 import logoBluePurp from "../images/brand/logoBluePurp.png";
 import logoPurple from "../images/brand/logoPurple.png";
 import logoWhite from "../images/brand/logoWhite.png";
+import { BsSunFill, BsMoonFill} from 'react-icons/bs';
+import { FaMoon, FaSun} from 'react-icons/fa';
+
+
 
 // import { TiSocialInstagramCircular } from "react-icons/fa";
 
 const Navbar = ({ web3Handler, account, explorerURL }) => {
+  const darkMode = () => {
+    document.documentElement.classList.add('dark')
+  }
+    const lighMode = () => {
+    document.documentElement.classList.remove('dark')
+  }
+
   return (
     <>
       {/* Navbar */}
-      <nav className="relative container mx-auto px-6 bg-bgBlack md:py-5 md:px-10">
+      <nav className="relative container mx-auto px-6 md:py-5 md:px-10">
         {/* Flex container */}
         <div className="flex items-center justify-between">
           <div className="px-4 py-5 md:py-2">
-            <img src={logoWhite} alt="logo" className="w-24 md:w-32" />
+            <img src={logoBluePurp} alt="logo" className="w-24 md:w-32 dark:hidden" />
+            <img src={logoWhite} alt="logo" className="w-24 md:w-32 hidden dark:block" />
+
           </div>
           <div className="hidden space-x-12 md:flex">
-            <a href="#" className="text-white  md:text-base hover:text-green-500">
+            <a href="#" className="text-bgBlack dark:text-white  md:text-base hover:text-green-500">
               Collection
             </a>
-            <a href="#" className="text-white  md:text-base">
+            <a href="#customize" className="text-bgBlack dark:text-white  md:text-base">
+              Specs
+            </a>
+            <a href="#roadmap" className="text-bgBlack dark:text-white  md:text-base">
               Roadmap
             </a>
-            <a href="#" className="text-white  md:text-base">
-              Community
+            <a href="#merch" className="text-bgBlack dark:text-white  md:text-base">
+              Merch
             </a>
-            <a href="#" className="text-white  md:text-base">
+            <a href="#team" className="text-bgBlack dark:text-white  md:text-base ">
               Team
             </a>
-            <a href="#" className="text-white  md:text-base ">
-              Gallery
-            </a>
           </div>
-          <div>{/* <TiSocialInstagramCircular /> */}</div>
+          <div className="flex space-x-2 bg-white justify-end rounded-full p-1.5">
+            <FaMoon className="rounded-full w-6 h-6 p-1 bg-gray-500 text-white" onClick={() => darkMode()} />
+            <FaSun className=" rounded-full w-6 h-6 p-1 bg-yellow-400 text-white" onClick={() => lighMode()} />
+          </div>
           {/* button */}
-
           <a
-            href="#"
+            href="#wallet"
             className="hidden p-3 px-6 text-white bg-redish hover:bg-blue-400 rounded-full baseline md:block"
           >
             Connect Wallet

@@ -17,7 +17,7 @@ const Slider = () => {
       {/* Slider section */}
       <section id="distribution">
         {/* flex container */}
-        <div className="container flex items-center mx-auto p-10 overflow-hidden space-x-16 bg-bgBlack border-y border-redish overflow-x-scroll">
+        <div className="container flex items-center mx-auto p-10 overflow-hidden space-x-16 border-t border-redish overflow-x-scroll">
           {/* left item */}
           {sliders.map((img, idx) => (
                 <img

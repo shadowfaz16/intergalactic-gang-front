@@ -12,8 +12,11 @@ module.exports = {
       colors: {
         brightRed: "hsl(12, 88%, 59%)",
         bgBlack: "#101010",
+        blackk: "#14171A",
         bgWhite: "#f2f2f2",
         redish: "#fb4f4f",
+        elg: "#E1E8ED",
+        eelg: "#F5F8FA",
       },
     },
     container: {

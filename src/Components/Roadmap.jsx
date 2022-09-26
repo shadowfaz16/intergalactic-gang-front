@@ -7,23 +7,23 @@ import buckethat from "../images/merch/buckethat.png";
 import longSleeve from "../images/merch/longSleeve.png";
 import shirt from "../images/merch/shirt.png";
 
-const Hero = () => {
+const Roadmap = () => {
   return (
     <>
-      {/* hero section */}
-      <section id="hero">
+      {/* Roadmap section */}
+      <section id="roadmap">
         {/* flex container */}
-        <div className="container flex flex-col items-center mx-auto p-10 space-y-10 bg-bgBlack md:flex-row md:space-y-0 border-y border-redish">
+        <div className="container flex flex-col items-center mx-auto p-10 space-y-10  md:flex-row md:space-y-0 border-t border-redish">
           {/* left item */}
-          <div className="flex flex-col space-y-7 text-white md:w-3/5 md:space-y-5">
-            <h1 className="max-w-md text-white font-mono font-bold italic text-3xl md:w-1/2">
+          <div className="flex flex-col space-y-7 md:w-3/5 md:space-y-5 text-bgBlack dark:text-white">
+            <h1 className="max-w-md font-mono font-bold italic text-3xl md:w-1/2">
               ROADMAP
             </h1>
-            <p className="max-w-xxl text-white">
+            <p className="max-w-xxl md:text-lg">
               The main purpose of this project is showcasing our portfolio so we can meet others with shared interests along the way. That said, we will keep looking for different ways to benefit the people who've helped us come so far. 
             </p>
             {/* roadmap stages */}
-            <div className="text-white space-y-7">
+            <div className="space-y-7">
               {/* row */}
               <div className="flex space-x-10 items-center">
                 {/* % number */}
@@ -119,4 +119,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Roadmap;
