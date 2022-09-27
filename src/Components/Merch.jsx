@@ -1,6 +1,5 @@
 import "../App.css";
 import React from "react";
-import NFTs from "../images/NFTs.gif";
 
 import beanie from "../images/merch/beanie.png"
 import buckethat from "../images/merch/buckethat.png"
@@ -12,13 +11,21 @@ const Merch = () => {
   return (
     <>
       {/* Merch section */}
-      <section id="distribution">
+      <section id="merch">
         {/* flex container */}
-        <div className="container flex items-center mx-auto border-t border-redish overflow-scroll p-10 md:flex-row md:space-y-0">
-          <img src={longSleeve} alt="long sleeve" className="w-1/2 md:w-full"/>
-          <img src={buckethat} alt="bucket hat" className="w-1/2 md:w-full"/>
-          <img src={shirt} alt="shirt" className="w-1/2 md:w-full"/>
-          <img src={beanie} alt="beanie" className="w-1/2 md:w-full"/>
+        <div className="container flex items-center snap-x mx-auto border-t border-redish overflow-scroll p-10 md:flex-row md:space-y-0">
+            <div className="snap-center">
+              <img src={longSleeve} alt="long sleeve" className=""/>
+            </div>
+            <div>
+              <img src={buckethat} alt="bucket hat" className=""/>
+            </div>
+            <div>
+              <img src={shirt} alt="shirt" className=""/>
+            </div>
+            <div>
+               <img src={beanie} alt="beanie" className=""/>
+            </div>
         </div>
       </section>
     </>

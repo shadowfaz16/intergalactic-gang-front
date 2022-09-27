@@ -4,7 +4,6 @@ import { FaTwitter, FaInstagram, FaDiscord, FaBeer } from 'react-icons/fa';
 
 
 const Footer = () => {
-  const icons = [FaTwitter, FaInstagram, FaDiscord, FaBeer]
   return (
     <>
       <section id="hero">
@@ -21,15 +20,23 @@ const Footer = () => {
             <img
               src={altPurple}
               alt="Gang Member"
-              className="rounded w-24 md:w-28"
+              className="rounded w-24 md:w-28 hover:animate-spin-slow"
             />
           </div>
           {/* right item */}
           <div className="flex w-full justify-center md:w-1/3 md:justify-end text-bgBlack dark:text-white space-x-3">
-              <FaDiscord size={25} className="hover:scale-95"/>
-              <FaInstagram size={25} className="hover:scale-95"/>
-              <FaTwitter size={25} className="hover:scale-95"/>
-              <FaBeer size={25} className="hover:scale-95"/>
+              <a href="https://discord.com">
+                <FaDiscord size={25} className="hover:scale-95"/>
+              </a>
+              <a href="https://instagram.com">
+               <FaInstagram size={25} className="hover:scale-95"/>
+              </a>
+              <a href="https://twitter.com">
+               <FaTwitter size={25} className="hover:scale-95"/>
+              </a>
+              <a href="#">
+                <FaBeer size={25} className="hover:scale-95"/>
+              </a>
           </div>
         </div>
       </section>

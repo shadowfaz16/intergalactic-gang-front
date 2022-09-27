@@ -1,9 +1,7 @@
 import "../App.css";
 import React from "react";
-import NFTs from "../images/NFTs.gif";
 import alien2 from "../images/gang/alien2.png";
 import alien1 from "../images/gang/alien1.png"; 
-import { FaLinkedin } from 'react-icons/fa';
 import { TbBrandTwitter, TbBrandInstagram} from 'react-icons/tb';
 import { TbBrandLinkedin } from 'react-icons/tb';
 

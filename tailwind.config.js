@@ -18,6 +18,9 @@ module.exports = {
         elg: "#E1E8ED",
         eelg: "#F5F8FA",
       },
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
+      },
     },
     container: {
       center: true,

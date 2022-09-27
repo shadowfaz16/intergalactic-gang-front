@@ -1,11 +1,6 @@
 import "../App.css";
 import React from "react";
-import NFTs from "../images/NFTs.gif";
-import showcase from "../images/showcase.png";
-import beanie from "../images/merch/beanie.png";
-import buckethat from "../images/merch/buckethat.png";
-import longSleeve from "../images/merch/longSleeve.png";
-import shirt from "../images/merch/shirt.png";
+import university2 from "../images/university/university2.png";
 
 const Roadmap = () => {
   return (
@@ -72,7 +67,7 @@ const Roadmap = () => {
                 {/* activation */}
                 <div>
                   <p>
-                  We will start hosting live workshops to show the finishing touches of the latest projects we are working on and handing in.
+                  We will start hosting live, private workshops to show the finishing touches of the latest projects we are working on and handing in.
                   </p>
                 </div>
               </div>
@@ -92,27 +87,13 @@ const Roadmap = () => {
           </div>
           {/* right item */}
           {/* merch gif */}
-          {/* <div
-            id="carouselExampleSlidesOnly"
-            className="carousel slide carousel-fade relative w-2/5"
-            data-bs-ride="carousel"
-          >
-            <div className="carousel-inner relative w-full overflow-hidden">
-              <div className="carousel-item active relative float-left w-full">
-                <img
-                  src={buckethat}
-                  className="block w-full"
-                  alt="Wild Landscape"
-                />
-              </div>
-              <div className="carousel-item relative float-left w-full">
-                <img src={longSleeve} className="block w-full" alt="Camera" />
-              </div>
-              <div className="carousel-item relative float-left w-full">
-                <img src={shirt} className="block w-full" alt="Exotic Fruits" />
-              </div>
-            </div>
-          </div> */}
+          <div className="flex w-full justify-center md:w-2/5">
+            <img
+              src={university2}
+              alt="Roadmap"
+              className="rounded-lg md:w-96 ml-auto"
+            />
+          </div>
         </div>
       </section>
     </>

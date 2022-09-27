@@ -1,6 +1,4 @@
-import logo from "../images/logo.png";
 import logoBluePurp from "../images/brand/logoBluePurp.png";
-import logoPurple from "../images/brand/logoPurple.png";
 import logoWhite from "../images/brand/logoWhite.png";
 import { BsSunFill, BsMoonFill} from 'react-icons/bs';
 import { FaMoon, FaSun} from 'react-icons/fa';
@@ -20,7 +18,7 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
   return (
     <>
       {/* Navbar */}
-      <nav className="relative container mx-auto px-6 md:py-5 md:px-10">
+      <nav className="container mx-auto px-6 md:py-5 md:px-10">
         {/* Flex container */}
         <div className="flex items-center justify-between">
           <div className="px-4 py-5 md:py-2">
@@ -32,7 +30,7 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
             <a href="#" className="text-bgBlack dark:text-white  md:text-base hover:text-green-500">
               Collection
             </a>
-            <a href="#customize" className="text-bgBlack dark:text-white  md:text-base">
+            <a href="#customize" className="text-bgBlack dark:text-white md:text-base">
               Specs
             </a>
             <a href="#roadmap" className="text-bgBlack dark:text-white  md:text-base">
@@ -41,11 +39,11 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
             <a href="#merch" className="text-bgBlack dark:text-white  md:text-base">
               Merch
             </a>
-            <a href="#team" className="text-bgBlack dark:text-white  md:text-base ">
+            <a href="#dream-team" className="text-bgBlack dark:text-white  md:text-base ">
               Team
             </a>
           </div>
-          <div className="flex space-x-2 bg-white justify-end rounded-full p-1.5">
+          <div className="flex space-x-2 bg-bgBlack dark:bg-white justify-end rounded-full p-1.5 z-10">
             <FaMoon className="rounded-full w-6 h-6 p-1 bg-gray-500 text-white" onClick={() => darkMode()} />
             <FaSun className=" rounded-full w-6 h-6 p-1 bg-yellow-400 text-white" onClick={() => lighMode()} />
           </div>

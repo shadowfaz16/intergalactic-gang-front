@@ -1,12 +1,6 @@
 import "../App.css";
 import React from "react";
 import { useState } from "react";
-import NFTs from "../images/NFTs.gif";
-import showcase from "../images/showcase.png";
-import alien21 from "../images/gang/alien21.png";
-import alien32 from "../images/gang/alien32.png";
-import alien35 from "../images/gang/alien35.png";
-import alien73 from "../images/gang/alien73.png";
 
 import Cyan from "../images/layers/Backgrounds/Cyan.png";
 import Mustard from "../images/layers/Backgrounds/Mustard.png";
@@ -16,7 +10,6 @@ import Purple from "../images/layers/Backgrounds/Purple.png";
 import Red from "../images/layers/Backgrounds/Red.png";
 import Yellow from "../images/layers/Backgrounds/Yellow.png";
 import Black from "../images/layers/Backgrounds/Black.png";
-import Grey from "../images/layers/Backgrounds/Grey.png";
 import Transparent from "../images/layers/Backgrounds/Transparent.png";
 
 import Camo from "../images/layers/Body/Camo.png";
@@ -43,16 +36,13 @@ import Helmet from "../images/layers/Hats/Helmet.png";
 import SkiMask from "../images/layers/Hats/SkiMask.png";
 import Sombrero from "../images/layers/Hats/Sombrero.png";
 
-import Background from "./Customize/Background";
-
 const Specs = () => {
   const [background, setBackground] = useState(Black);
-  const [body, setBody] = useState(Transparent);
   const [face, setFace] = useState(Transparent);
   const [clothes, setClothes] = useState(Transparent);
   const [hat, setHat] = useState(Transparent);
 
-  const backgrounds = [Cyan, Mustard, Orange, Pink, Purple, Red, Yellow, Black, Transparent]
+  const backgrounds = [Cyan, Mustard, Orange, Pink, Purple, Red, Yellow, Transparent]
   const faces = [BlueFace, BlueishFace, GreenFace, PurpleFace, RedFace, SalmonFace, YellowFace]
   const clothing = [Camo, Coat, Hoodie, OpenShirt, WhiteCollarShirt, Windbreaker, ZipUp]
   const hats = [Beanie, BucketHat, Cap, FivePanel, Helmet, SkiMask, Sombrero]
@@ -111,43 +101,6 @@ const Specs = () => {
           {/* center item */}
           <div className="flex flex-col mt-8 space-y-3 md:w-1/3 md:mt-0 md:space-y-5  ">
             {/* Eye Color */}
-            {/* <div className="flex flex-col">
-              <div>
-                <p className="max-w-xl  md:text-lg">Body Color:</p>
-              </div>
-              <div className="flex space-x-3 mt-3 ">
-                <img
-                  src={alien35}
-                  alt="Gang Member"
-                  className="rounded-md w-14 h-14 hover:scale-110 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
-                  onClick={() => setBody(alien35)}
-                />
-                <img
-                  src={alien32}
-                  alt="Gang Member"
-                  className="rounded-md w-14 h-14 hover:scale-110 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
-                  onClick={() => setBody(alien32)}
-                />
-                <img
-                  src={alien73}
-                  alt="Gang Member"
-                  className="rounded-md w-14 h-14 hover:scale-110 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
-                  onClick={() => setBody(alien73)}
-                />
-                <img
-                  src={alien35}
-                  alt="Gang Member"
-                  className="rounded-md w-14 h-14 hover:scale-110 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
-                  onClick={() => setBody(alien35)}
-                />
-                <img
-                  src={alien32}
-                  alt="Gang Member"
-                  className="rounded-md w-14 h-14 hover:scale-110 hover:shadow-md hover:shadow-slate-600 hover:cursor-pointer"
-                  onClick={() => setBody(alien21)}
-                />
-              </div>
-            </div> */}
             {/* Body Clothes */}
             <div className="flex flex-col">
               <div>
@@ -164,7 +117,6 @@ const Specs = () => {
                 />
                 ))}
                 </div>
-             
             </div>
             {/* Hat */}
             <div className="flex flex-col">
@@ -193,28 +145,22 @@ const Specs = () => {
               className="rounded-md relative w-full md:w-80 md:ml-auto z-1"
             />
             {/* body */}
-            {/* <img
-              src={body}
-              alt="Body"
-              className="rounded absolute inset-0 md:w-80 md:ml-auto z-2"
-            /> */}
-            {/* face */}
             <img
               src={face}
               alt="Face"
-              className="absolute inset-0 md:w-80 md:ml-auto z-3"
+              className="absolute inset-0 w-full md:w-80 md:ml-auto z-3"
             />
             {/* clothes */}
             <img
               src={clothes}
               alt="Clothes"
-              className="absolute inset-0 md:w-80 md:ml-auto z-4"
+              className="absolute inset-0 w-full md:w-80 md:ml-auto z-4"
             />
             {/* cap */}
             <img
               src={hat}
               alt="Hat"
-              className="absolute inset-0 md:w-80 md:ml-auto z-5"
+              className="absolute inset-0 w-full md:w-80 md:ml-auto z-5"
             />
           </div>
         </div>
