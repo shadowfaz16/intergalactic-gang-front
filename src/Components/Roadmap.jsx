@@ -8,7 +8,7 @@ const Roadmap = () => {
       {/* Roadmap section */}
       <section id="roadmap">
         {/* flex container */}
-        <div className="container flex flex-col items-center mx-auto p-10 space-y-10  md:flex-row md:space-y-0 border-t border-redish">
+        <div className="container flex flex-col items-center mx-auto p-10 space-y-10 md:flex-row md:space-y-0 border-t border-redish">
           {/* left item */}
           <div className="flex flex-col space-y-7 md:w-3/5 md:space-y-5 text-bgBlack dark:text-white">
             <h1 className="max-w-md font-mono font-bold italic text-3xl md:w-1/2">

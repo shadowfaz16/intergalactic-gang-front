@@ -13,7 +13,7 @@ import DreamTeam from "./Components/DreamTeam";
 
 function App() {
   return (
-    <div className="bg-elg dark:bg-bgBlack">
+    <div className="bg-eelg dark:bg-bgBlack">
       <Navbar />
       <Hero />
       <Slider />
