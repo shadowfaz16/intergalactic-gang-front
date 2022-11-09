@@ -4,7 +4,7 @@ import alien2 from "../images/gang/alien2.png";
 import alien1 from "../images/gang/alien1.png";
 import { TbBrandTwitter, TbBrandInstagram } from "react-icons/tb";
 import { TbBrandLinkedin } from "react-icons/tb";
-
+import Joel from "../images/team/joel.png";
 const Hero = () => {
   return (
     <>
@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="flex flex-col items-center bg-blackCards dark:bg-white p-5 space-y-3 rounded-md md:flex-row md:items-start md:space-x-8 md:space-y-0 md:h-44">
               <div className="relative">
                 <img
-                  src={alien1}
+                  src={Joel}
                   alt="Joel Alexander"
                   className="w-44 md:w-64 rounded-full"
                 />
