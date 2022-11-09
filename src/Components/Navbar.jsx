@@ -2,6 +2,7 @@ import logoBluePurp from "../images/brand/logoBluePurp.png";
 import logoWhite from "../images/brand/logoWhite.png";
 import { BsSunFill, BsMoonFill } from "react-icons/bs";
 import { FaMoon, FaSun } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 // import { TiSocialInstagramCircular } from "react-icons/fa";
 
@@ -32,36 +33,66 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
             />
           </div>
           <div className="hidden space-x-12 md:flex">
-            <a
+            <Link
               href="#"
               className="text-bgBlack dark:text-white  md:text-base hover:text-green-500"
+              to="hero"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={700}
+              // onSetActive={this.handleSetActive}
             >
               Collection
-            </a>
-            <a
-              href="#customize"
-              className="text-bgBlack dark:text-white md:text-base"
+            </Link>
+            <Link
+              href="#"
+              className="text-bgBlack dark:text-white  md:text-base hover:text-green-500"
+              to="customize"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={700}
+              // onSetActive={this.handleSetActive}
             >
               Specs
-            </a>
-            <a
-              href="#roadmap"
-              className="text-bgBlack dark:text-white  md:text-base"
+            </Link>
+            <Link
+              href="#"
+              className="text-bgBlack dark:text-white  md:text-base hover:text-green-500"
+              to="roadmap"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={700}
+              // onSetActive={this.handleSetActive}
             >
               Roadmap
-            </a>
-            <a
-              href="#merch"
-              className="text-bgBlack dark:text-white  md:text-base"
+            </Link>
+            <Link
+              href="#"
+              className="text-bgBlack dark:text-white  md:text-base hover:text-green-500"
+              to="merch"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={700}
+              // onSetActive={this.handleSetActive}
             >
               Merch
-            </a>
-            <a
-              href="#dream-team"
-              className="text-bgBlack dark:text-white  md:text-base "
+            </Link>
+            <Link
+              href="#"
+              className="text-bgBlack dark:text-white  md:text-base hover:text-green-500"
+              to="dream-team"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={700}
+              // onSetActive={this.handleSetActive}
             >
               Team
-            </a>
+            </Link>
           </div>
           <div className="flex items-center md:space-x-5">
             <div className="flex space-x-2 bg-bgBlack dark:bg-white justify-end rounded-full p-1.5 z-10">

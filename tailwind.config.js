@@ -16,7 +16,8 @@ module.exports = {
         bgWhite: "#f2f2f2",
         redish: "#fb4f4f",
         elg: "#E1E8ED",
-        eelg: "#F5F8FA",
+        eelg: "#FAFAFA",
+        blackCards: "#18181b",
       },
       animation: {
         "spin-slow": "spin 3s linear infinite",
